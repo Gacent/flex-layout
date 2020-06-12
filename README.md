@@ -80,3 +80,5 @@ Vue.use(flexlayout,{
 1. 由于包名被占用，所以修改包名为flex-custom-layout
 ### 0.1.2
 1. 修改css文件
+### 0.1.3
+1. 修改README说明
