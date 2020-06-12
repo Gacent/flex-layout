@@ -1,14 +1,14 @@
-# flexLayout
+# flex-custom-layout
 > flex弹性布局快捷方式
 > 可以配合amfe-flexible使用
 
 ## usage
 ### install
-`npm i flex-layout -S`
+`npm i flex-custom-layout -S`
 
 ### use
 ```javascript
-import flexlayout from 'flex-layout'
+import flexlayout from 'flex-custom-layout'
 Vue.use(flexlayout,{
   isRem: true,  // 是否使用rem单位，默认是true
   htsize: '192' // Rem情况下必填，表示设计图尺寸/10，1920-->192   375-->37.5
@@ -75,3 +75,5 @@ Vue.use(flexlayout,{
 ## 版本
 ### 0.1.0
 1. 发布
+### 0.1.1
+1. 由于包名被占用，所以修改包名为flex-custom-layout
