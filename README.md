@@ -9,6 +9,7 @@
 ### use
 ```javascript
 import flexlayout from 'flex-custom-layout'
+import 'flex-custom-layout/dist/flexlayout.css'
 Vue.use(flexlayout,{
   isRem: true,  // 是否使用rem单位，默认是true
   htsize: '192' // Rem情况下必填，表示设计图尺寸/10，1920-->192   375-->37.5
