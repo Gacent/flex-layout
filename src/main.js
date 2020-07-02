@@ -2,7 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import flexlayout from './components'
 // eslint-disable-next-line
-Vue.use(flexlayout,{
+import 'amfe-flexible'
+Vue.use(flexlayout, {
   isRem: true,
   htsize: '192'
 })
